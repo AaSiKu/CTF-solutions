@@ -1,0 +1,265 @@
+  2           0 RESUME                   0
+
+  3           2 LOAD_CONST               1 (0)
+              4 BUILD_LIST               1
+              6 LOAD_CONST               2 (27)
+              8 BINARY_OP                5 (*)
+             12 STORE_FAST               0 (flag)
+
+  4          14 LOAD_CONST               3 (62)
+             16 LOAD_CONST               4 (42)
+             18 COMPARE_OP               0 (<)
+             24 POP_JUMP_FORWARD_IF_FALSE     2 (to 30)
+             26 LOAD_CONST               5 (95)
+             28 JUMP_FORWARD             1 (to 32)
+        >>   30 LOAD_CONST               6 (102)
+        >>   32 LOAD_FAST                0 (flag)
+             34 LOAD_CONST               1 (0)
+             36 STORE_SUBSCR
+
+  5          40 LOAD_CONST               7 (6)
+             42 LOAD_CONST               1 (0)
+             44 COMPARE_OP               2 (==)
+             50 POP_JUMP_FORWARD_IF_FALSE     2 (to 56)
+             52 LOAD_CONST               8 (120)
+             54 JUMP_FORWARD             1 (to 58)
+        >>   56 LOAD_CONST               9 (108)
+        >>   58 LOAD_FAST                0 (flag)
+             60 LOAD_CONST              10 (1)
+             62 STORE_SUBSCR
+
+  6          66 LOAD_CONST              11 (115)
+             68 LOAD_CONST              11 (115)
+             70 COMPARE_OP               3 (!=)
+             76 POP_JUMP_FORWARD_IF_FALSE     2 (to 82)
+             78 LOAD_CONST              12 (105)
+             80 JUMP_FORWARD             1 (to 84)
+        >>   82 LOAD_CONST              13 (97)
+        >>   84 LOAD_FAST                0 (flag)
+             86 LOAD_CONST              14 (2)
+             88 STORE_SUBSCR
+
+  7          92 LOAD_CONST              10 (1)
+             94 LOAD_CONST              10 (1)
+             96 COMPARE_OP               2 (==)
+            102 POP_JUMP_FORWARD_IF_FALSE     2 (to 108)
+            104 LOAD_CONST              15 (103)
+            106 JUMP_FORWARD             1 (to 110)
+        >>  108 LOAD_CONST              16 (107)
+        >>  110 LOAD_FAST                0 (flag)
+            112 LOAD_CONST              17 (3)
+            114 STORE_SUBSCR
+
+  8         118 LOAD_CONST              18 (56)
+            120 LOAD_CONST              19 (44)
+            122 COMPARE_OP               4 (>)
+            128 POP_JUMP_FORWARD_IF_FALSE     2 (to 134)
+            130 LOAD_CONST              20 (123)
+            132 JUMP_FORWARD             1 (to 136)
+        >>  134 LOAD_CONST              21 (113)
+        >>  136 LOAD_FAST                0 (flag)
+            138 LOAD_CONST              22 (4)
+            140 STORE_SUBSCR
+
+  9         144 LOAD_CONST              23 (112)
+            146 LOAD_FAST                0 (flag)
+            148 LOAD_CONST              24 (5)
+            150 STORE_SUBSCR
+
+ 10         154 LOAD_CONST              25 (15)
+            156 LOAD_CONST              25 (15)
+            158 COMPARE_OP               2 (==)
+            164 POP_JUMP_FORWARD_IF_FALSE     2 (to 170)
+            166 LOAD_CONST              26 (121)
+            168 JUMP_FORWARD             1 (to 172)
+        >>  170 LOAD_CONST               6 (102)
+        >>  172 LOAD_FAST                0 (flag)
+            174 LOAD_CONST               7 (6)
+            176 STORE_SUBSCR
+
+ 11         180 LOAD_CONST              27 (36.0)
+            182 LOAD_CONST              28 (36)
+            184 COMPARE_OP               2 (==)
+            190 POP_JUMP_FORWARD_IF_FALSE     2 (to 196)
+            192 LOAD_CONST              29 (116)
+            194 JUMP_FORWARD             1 (to 198)
+        >>  196 LOAD_CONST              20 (123)
+        >>  198 LOAD_FAST                0 (flag)
+            200 LOAD_CONST              30 (7)
+            202 STORE_SUBSCR
+
+ 12         206 LOAD_CONST              31 (12)
+            208 LOAD_CONST              32 (14)
+            210 COMPARE_OP               2 (==)
+            216 POP_JUMP_FORWARD_IF_FALSE     2 (to 222)
+            218 LOAD_CONST              33 (98)
+            220 JUMP_FORWARD             1 (to 224)
+        >>  222 LOAD_CONST              34 (104)
+        >>  224 LOAD_FAST                0 (flag)
+            226 LOAD_CONST              35 (8)
+            228 STORE_SUBSCR
+
+ 13         232 LOAD_CONST              36 (48)
+            234 LOAD_FAST                0 (flag)
+            236 LOAD_CONST              37 (9)
+            238 STORE_SUBSCR
+
+ 14         242 LOAD_CONST              24 (5)
+            244 LOAD_CONST              38 (10)
+            246 COMPARE_OP               4 (>)
+            252 POP_JUMP_FORWARD_IF_FALSE     2 (to 258)
+            254 LOAD_CONST              39 (101)
+            256 JUMP_FORWARD             1 (to 260)
+        >>  258 LOAD_CONST              40 (110)
+        >>  260 LOAD_FAST                0 (flag)
+            262 LOAD_CONST              38 (10)
+            264 STORE_SUBSCR
+
+ 15         268 LOAD_CONST               5 (95)
+            270 LOAD_FAST                0 (flag)
+            272 LOAD_CONST              41 (11)
+            274 STORE_SUBSCR
+
+ 16         278 LOAD_CONST              33 (98)
+            280 LOAD_CONST              33 (98)
+            282 COMPARE_OP               2 (==)
+            288 POP_JUMP_FORWARD_IF_FALSE     2 (to 294)
+            290 LOAD_CONST              33 (98)
+            292 JUMP_FORWARD             1 (to 296)
+        >>  294 LOAD_CONST              42 (78)
+        >>  296 LOAD_FAST                0 (flag)
+            298 LOAD_CONST              31 (12)
+            300 STORE_SUBSCR
+
+ 17         304 LOAD_CONST              43 (28)
+            306 LOAD_CONST              43 (28)
+            308 COMPARE_OP               2 (==)
+            314 POP_JUMP_FORWARD_IF_FALSE     2 (to 320)
+            316 LOAD_CONST              26 (121)
+            318 JUMP_FORWARD             1 (to 322)
+        >>  320 LOAD_CONST              15 (103)
+        >>  322 LOAD_FAST                0 (flag)
+            324 LOAD_CONST              44 (13)
+            326 STORE_SUBSCR
+
+ 18         330 LOAD_CONST              45 (55)
+            332 LOAD_FAST                0 (flag)
+            334 LOAD_CONST              32 (14)
+            336 STORE_SUBSCR
+
+ 19         340 LOAD_CONST              46 (22.0)
+            342 LOAD_CONST              47 (22)
+            344 COMPARE_OP               2 (==)
+            350 POP_JUMP_FORWARD_IF_FALSE     2 (to 356)
+            352 LOAD_CONST              48 (69)
+            354 JUMP_FORWARD             1 (to 358)
+        >>  356 LOAD_CONST              13 (97)
+        >>  358 LOAD_FAST                0 (flag)
+            360 LOAD_CONST              25 (15)
+            362 STORE_SUBSCR
+
+ 20         366 LOAD_CONST              49 (66)
+            368 LOAD_CONST              49 (66)
+            370 COMPARE_OP               2 (==)
+            376 POP_JUMP_FORWARD_IF_FALSE     2 (to 382)
+            378 LOAD_CONST               5 (95)
+            380 JUMP_FORWARD             1 (to 384)
+        >>  382 LOAD_CONST              12 (105)
+        >>  384 LOAD_FAST                0 (flag)
+            386 LOAD_CONST              50 (16)
+            388 STORE_SUBSCR
+
+ 21         392 LOAD_CONST              14 (2)
+            394 LOAD_CONST              10 (1)
+            396 COMPARE_OP               0 (<)
+            402 POP_JUMP_FORWARD_IF_FALSE     2 (to 408)
+            404 LOAD_CONST              13 (97)
+            406 JUMP_FORWARD             1 (to 410)
+        >>  408 LOAD_CONST              51 (99)
+        >>  410 LOAD_FAST                0 (flag)
+            412 LOAD_CONST              52 (17)
+            414 STORE_SUBSCR
+
+ 22         418 LOAD_CONST              53 (54)
+            420 LOAD_CONST              54 (67)
+            422 COMPARE_OP               3 (!=)
+            428 POP_JUMP_FORWARD_IF_FALSE     2 (to 434)
+            430 LOAD_CONST              36 (48)
+            432 JUMP_FORWARD             1 (to 436)
+        >>  434 LOAD_CONST               8 (120)
+        >>  436 LOAD_FAST                0 (flag)
+            438 LOAD_CONST              55 (18)
+            440 STORE_SUBSCR
+
+ 23         444 LOAD_CONST              56 (100)
+            446 LOAD_FAST                0 (flag)
+            448 LOAD_CONST              57 (19)
+            450 STORE_SUBSCR
+
+ 24         454 LOAD_CONST              32 (14)
+            456 LOAD_CONST              25 (15)
+            458 COMPARE_OP               2 (==)
+            464 POP_JUMP_FORWARD_IF_FALSE     2 (to 470)
+            466 LOAD_CONST              58 (64)
+            468 JUMP_FORWARD             1 (to 472)
+        >>  470 LOAD_CONST              59 (51)
+        >>  472 LOAD_FAST                0 (flag)
+            474 LOAD_CONST              60 (20)
+            476 STORE_SUBSCR
+
+ 25         480 LOAD_CONST              61 (14.0)
+            482 LOAD_CONST              32 (14)
+            484 COMPARE_OP               2 (==)
+            490 POP_JUMP_FORWARD_IF_FALSE     2 (to 496)
+            492 LOAD_CONST               5 (95)
+            494 JUMP_FORWARD             1 (to 498)
+        >>  496 LOAD_CONST              34 (104)
+        >>  498 LOAD_FAST                0 (flag)
+            500 LOAD_CONST              62 (21)
+            502 STORE_SUBSCR
+
+ 26         506 LOAD_CONST              63 (49)
+            508 LOAD_FAST                0 (flag)
+            510 LOAD_CONST              47 (22)
+            512 STORE_SUBSCR
+
+ 27         516 LOAD_CONST              30 (7)
+            518 LOAD_CONST              30 (7)
+            520 COMPARE_OP               2 (==)
+            526 POP_JUMP_FORWARD_IF_FALSE     2 (to 532)
+            528 LOAD_CONST              64 (53)
+            530 JUMP_FORWARD             1 (to 534)
+        >>  532 LOAD_CONST              48 (69)
+        >>  534 LOAD_FAST                0 (flag)
+            536 LOAD_CONST              65 (23)
+            538 STORE_SUBSCR
+
+ 28         542 LOAD_CONST              66 (28.0)
+            544 LOAD_CONST               2 (27)
+            546 COMPARE_OP               2 (==)
+            552 POP_JUMP_FORWARD_IF_FALSE     2 (to 558)
+            554 LOAD_CONST              34 (104)
+            556 JUMP_FORWARD             1 (to 560)
+        >>  558 LOAD_CONST               5 (95)
+        >>  560 LOAD_FAST                0 (flag)
+            562 LOAD_CONST              67 (24)
+            564 STORE_SUBSCR
+
+ 29         568 LOAD_CONST              68 (117)
+            570 LOAD_CONST              56 (100)
+            572 COMPARE_OP               4 (>)
+            578 POP_JUMP_FORWARD_IF_FALSE     2 (to 584)
+            580 LOAD_CONST              69 (70)
+            582 JUMP_FORWARD             1 (to 586)
+        >>  584 LOAD_CONST              51 (99)
+        >>  586 LOAD_FAST                0 (flag)
+            588 LOAD_CONST              70 (25)
+            590 STORE_SUBSCR
+
+ 30         594 LOAD_CONST              71 (125)
+            596 LOAD_FAST                0 (flag)
+            598 LOAD_CONST              72 (26)
+            600 STORE_SUBSCR
+            604 LOAD_CONST               0 (None)
+            606 RETURN_VALUE
+None

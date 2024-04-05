@@ -1,0 +1,36 @@
+print("heoo")
+
+equations = [
+    "b + c + w = 319",
+"t + d + u = 257",
+"p + w + e = 351",
+"v + l + j = 242",
+"a + t + b = 313",
+"b + j + m = 313",
+"h + o + u = 196",
+"q + l + o = 241",
+"a + g + j = 245",
+"q + x + q = 315",
+"t + n + m = 264",
+"d + b + g = 259",
+"e + o + m = 330",
+"v + v + u = 247",
+"f + o + q = 259",
+"s + o + j = 300",
+"j + j + n = 241",
+"s + u + l = 208",
+"q + w + j = 304",
+"i + d + r = 276",
+"e + k + u = 250",
+"w + n + a = 267",
+"r + e + u = 239",
+"q + l + f = 211",
+]
+unique_letters = set()
+for eq in equations:
+    for c in eq:
+        if c.isalpha():
+            unique_letters.add(c)
+print(unique_letters)
+print(len(unique_letters))
+print(len(equations))
